@@ -53,8 +53,8 @@ You are all set!
 ### Screen Shots
 
 #### Sign Up Page
-![](images/sign-up.png)
+![](public/images/sign-up.png)
 #### Log In Page
-![](images/signin.png)
+![](public/images/signin.png)
 #### Members ONLY view
-![](images/member.png)
+![](public/images/member.png)
