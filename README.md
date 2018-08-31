@@ -52,9 +52,8 @@ You are all set!
 
 ### Screen Shots
 
-#### Sign Up Page
 ![](public/images/sign-up.png)
-#### Log In Page
+
 ![](public/images/signin.png)
 #### Members ONLY view
 ![](public/images/member.png)
