@@ -6,8 +6,7 @@ This boiler plate is the skelton of user athenication for an application using M
 
 ### Setup
 
-To begin, click clone repo or download to save the boiler plate your desired directory.  Then open the folde in your favorite editior to customize to meet your needs.  
-
+To begin, click clone or download repo to save the boiler plate your desired directory.  Then open the folder in your favorite editor.  
     **Before getting started**
     
     1. Create a database named `passport_demo`
@@ -48,3 +47,14 @@ First install all of the required node packages:
 
 Next node the server file:
 `node server.js`
+
+You are all set!
+
+### Screen Shots
+
+#### Sign Up Page
+![](images/sign-up.png)
+#### Log In Page
+![](images/signin.png)
+#### Members ONLY view
+![](images/member.png)
