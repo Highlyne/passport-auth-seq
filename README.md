@@ -13,7 +13,7 @@ To begin, click clone or download repo to save the boiler plate your desired dir
 
     2. Customize the config/config.json file to fit your system requirements
 
-        [
+    [
         {
         "development": {
             "username": "CHANGE THIS FOR WHAT YOU NEED",
@@ -38,7 +38,7 @@ To begin, click clone or download repo to save the boiler plate your desired dir
             "dialect": "mysql"
         }
         }
-        ]
+    ]
 
 Now let's get it up and running,
 
