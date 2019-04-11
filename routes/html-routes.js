@@ -9,16 +9,24 @@ module.exports = function(app) {
   app.get("/", function(req, res) {
     // If the user already has an account send them to the members page
     // if (req.user) {
-      // db.Example.findAll({}).then(function(dbExamples) {
-        res.render("index", {
-          msg: "Welcome!"
-          // examples: dbExamples
+        res.render("login", {
+          msg: "Yellow!"
         });
-      // });
-      // res.redirect("/members");
-    // }
-    // res.sendFile(path.join(__dirname, "../public/signup.html"));
   });
+
+  // app.get("/", function(req, res) {
+  //   // If the user already has an account send them to the members page
+  //   // if (req.user) {
+  //     // db.Example.findAll({}).then(function(dbExamples) {
+  //       res.render("index", {
+  //         msg: "Welcome!"
+  //         // examples: dbExamples
+  //       });
+  //     // });
+  //     // res.redirect("/members");
+  //   // }
+  //   // res.sendFile(path.join(__dirname, "../public/signup.html"));
+  // });
 
   app.get("/login", function(req, res) {
     // If the user already has an account send them to the members page
@@ -26,8 +34,8 @@ module.exports = function(app) {
       // res.redirect("/members");
     // }
     // res.sendFile(path.join(__dirname, "../public/login.html"));
-    res.render("login", {
-      msg: "Yellow!"
+    res.render("index", {
+      msg: "Blue!"
     })
   });
 
