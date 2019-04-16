@@ -1,7 +1,29 @@
-body {
-  background-color: aqua
+.login-container {
+  background-image:  url(../images/art-artist-artistic-316465.jpg);
+  background-color: #f1f1f1;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  padding: 40px;
+  height: 100vh;
 }
+
+.signup-container{
+  background-image: url(../images/regal/regal.png);
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+
+/* Main column */
+.login-form-container {
+  flex: 30%;
+  background-color: white;
+  padding: 20px;
+}
+
 form.signup,
 form.login {
   margin-top: 50px;
 }
+

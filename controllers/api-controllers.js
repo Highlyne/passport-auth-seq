@@ -18,10 +18,10 @@ var exampleController = {
             cb(results);
         })
     },
-    new: function(thing1, thing2, cb){
+    new: function(thing1, cb){
         model.create({
             text: thing1,
-            description: thing2,
+            description: thing1,
         })
         .then(function(results){
             cb(results);

@@ -4,4 +4,15 @@ $(document).ready(function() {
   $.get("/api/user_data").then(function(data) {
     $(".member-name").text(data.email);
   });
+
+  $("form.data").on("submit", function(event) {
+    
+  })
+  
+  function submitNewData(object){
+    
+    $.post("/api/postdata", ).then(function(data){
+
+    })
+  }
 });

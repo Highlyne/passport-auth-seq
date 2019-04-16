@@ -4,6 +4,14 @@ var bcrypt = require("bcrypt-nodejs");
 // Creating our User model
 module.exports = function(sequelize, DataTypes) {
   var User = sequelize.define("User", {
+    firstNM: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    lastNM: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
     // The email cannot be null, and must be a proper email before creation
     email: {
       type: DataTypes.STRING,

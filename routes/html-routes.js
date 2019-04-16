@@ -34,9 +34,7 @@ module.exports = function(app) {
       // res.redirect("/members");
     // }
     // res.sendFile(path.join(__dirname, "../public/login.html"));
-    res.render("index", {
-      msg: "Blue!"
-    })
+    res.render("login")
   });
 
   app.get("/signup", function(req, res) {
@@ -46,7 +44,7 @@ module.exports = function(app) {
     // }
     // res.sendFile(path.join(__dirname, "../public/login.html"));
     res.render("signup", {
-      msg: "Blue!"
+      msg: "Welcome!"
     })
   });
 
@@ -56,7 +54,7 @@ module.exports = function(app) {
     if (req.user) {
       db.Example.findAll({raw: true}).then(function(dbExamples) {
         console.log("Here is example data ", dbExamples);
-        res.render("example", {
+        res.render("members", {
           msg: "Welcome!",
           examples: dbExamples
         });
